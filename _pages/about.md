@@ -16,16 +16,13 @@ permalink: /about/
     <img src="{{ site.baseurl }}/assets/img/me.png">
 </figure>
 {:/}
-  - Incoming Software Engineer at Twitch 💜💜💜
-  - Recent NYU MS Graduate 🎓🔍
-  - Product focused Software Engineer 💻🚀
+  - Software Engineer at Twitch 💜💜💜
+  - NYU Graduate Class of 2021 🎓🔍
+  - Product first Software Engineer 💻🚀
   - Passionate about open source, ed-tech, media tech, building tools for developers.💡
-  - I can talk about scaling up your Web Apps, Serverless Apps, Scaling Micro Services, AWS, Open Source Contributions, new products
+  - I can talk about scaling up your Web Apps, Serverless Apps, Crypto, Web3, Scaling Micro Services, AWS, Open Source Contributions, new products
   that will change the future 🎤🗣
-  - I also write about integrating tools 🛠,
-  about the dev I think might help others, recently started on [Medium](https://medium.com/@rishiraj824) too 📚
-  - I follow [HackerNews](https://news.ycombinator.com/) and [TechCrunch](https://techcrunch.com)
-  very closely 📰
+  
   
   I like to involve myself in tech communities
 
@@ -47,10 +44,11 @@ permalink: /about/
 > "A tweet back in time ⏲during my Bachelors"
 
 When I'm not working, I enjoy:
- - Cooking 🍲 
+ - Cycling 🍲 
  - Running 🏃‍♂️
+ - Climbing 🧗
  - Listening to my collection of "Liked Songs" 🎶 
- - Gaming on my Switch 🎮
+ - Gaming on my PS5 and Switch 🎮
 
 
 	
