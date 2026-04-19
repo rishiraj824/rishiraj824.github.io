@@ -12,7 +12,7 @@ permalink: /jobs/
 </div>
 
 <p id="last-updated" style="font-size:0.85em;color:#999;margin-bottom:20px;"></p>
-<div id="jobs-list">
+<div id="jobs-list" style="overflow-x:auto;">
   <p>Loading jobs...</p>
 </div>
 
@@ -30,28 +30,39 @@ permalink: /jobs/
         container.innerHTML = '<p>No jobs posted yet — check back soon.</p>';
         return;
       }
-      container.innerHTML = jobs.map(j => `
-        <div style="border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin-bottom:16px;">
-          <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;">
-            <div>
-              <h3 style="margin:0 0 4px;">${j.role || 'Role not specified'}</h3>
-              <strong>${j.company || 'Company not specified'}</strong>
-            </div>
-            <span style="background:#f0f0f0;padding:4px 10px;border-radius:12px;font-size:0.85em;">${j.status || ''}</span>
-          </div>
-          <div style="margin-top:10px;font-size:0.9em;color:#555;display:flex;flex-wrap:wrap;gap:12px;">
-            ${j.pay && j.pay !== 'Not mentioned' ? `<span>💰 ${j.pay}</span>` : ''}
-            ${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? `<span>🏠 ${j.remote_or_onsite}</span>` : ''}
-            ${j.location && j.location !== 'Not mentioned' ? `<span>📍 ${j.location}</span>` : ''}
-            ${j.funding && j.funding !== 'Not mentioned' ? `<span>🚀 ${j.funding}</span>` : ''}
-          </div>
-          ${j.summary ? `<p style="margin:10px 0 0;font-size:0.9em;">${j.summary}</p>` : ''}
-          <div style="margin-top:10px;font-size:0.8em;color:#999;">
-            ${j.date_added ? `Added ${j.date_added}` : ''}
-            ${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? ` · <a href="${j.linkedin_or_website}" target="_blank">Apply / Learn more</a>` : ''}
-          </div>
-        </div>
+      const rows = jobs.map(j => `
+        <tr>
+          <td style="white-space:nowrap;color:#999;font-size:0.8em;">${j.date_added || ''}</td>
+          <td><strong>${j.company || '—'}</strong></td>
+          <td>${j.role || '—'}</td>
+          <td><span style="background:#f0f0f0;padding:2px 8px;border-radius:10px;font-size:0.8em;white-space:nowrap;">${j.status || ''}</span></td>
+          <td style="font-size:0.85em;">${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
+          <td style="font-size:0.85em;">${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
+          <td style="font-size:0.85em;">${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
+          <td style="font-size:0.85em;">${j.funding && j.funding !== 'Not mentioned' ? j.funding : '—'}</td>
+          <td style="font-size:0.85em;">${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? `<a href="${j.linkedin_or_website}" target="_blank">Link</a>` : '—'}</td>
+        </tr>
       `).join('');
+      container.innerHTML = `
+        <table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+          <thead>
+            <tr style="border-bottom:2px solid #e0e0e0;text-align:left;">
+              <th style="padding:8px 12px 8px 0;white-space:nowrap;">Date Added</th>
+              <th style="padding:8px 12px;">Company</th>
+              <th style="padding:8px 12px;">Role</th>
+              <th style="padding:8px 12px;">Status</th>
+              <th style="padding:8px 12px;">Pay</th>
+              <th style="padding:8px 12px;">Remote</th>
+              <th style="padding:8px 12px;">Location</th>
+              <th style="padding:8px 12px;">Funding</th>
+              <th style="padding:8px 12px;">Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows}
+          </tbody>
+        </table>
+      `;
     })
     .catch(() => {
       document.getElementById('jobs-list').innerHTML = '<p>Could not load jobs. Try again later.</p>';
