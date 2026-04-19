@@ -1,6 +1,32 @@
 {
-  "last_updated": "April 19, 2026 at 03:35 PM",
+  "last_updated": "April 19, 2026 at 03:45 PM",
   "jobs": [
+    {
+      "date_received": "2026-04-12T19:54:11+00:00",
+      "date_added": "April 19, 2026",
+      "company": "Not mentioned (trading firm via Acquire Me)",
+      "role": "Distributed Trading System Engineer",
+      "status": "Follow-up",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://trail.acquireme.io/api/t/c/usr_WMRgtHPLXe2exPQCM/tsk_pxjjrvvf6d2ycXKME/enc_U2FsdGVkX18_QWzkAcfFI6UT4zZi-y-nhwhupOVMvV_GvT7_wIWo0dsofAtb1rcputYh0K00OkXljA64Wi-_quL5a9lBZSodnFXQWnK4PFjhFXSr0Oiu_ujNHkutGZ-v",
+      "funding": "Not mentioned",
+      "summary": "Recruiter Luciano Iacona from Acquire Me is following up multiple times about a software engineering role at an undisclosed trading firm building a greenfield distributed trading platform with aggressive compensation."
+    },
+    {
+      "date_received": "2026-04-14T11:11:46+00:00",
+      "date_added": "April 19, 2026",
+      "company": "Multiple (Anthropic, Lovable, Momentic, Haize Labs, Retell AI, and others)",
+      "role": "Various (Engineering, Product, Design, Business roles)",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Hybrid",
+      "location": "San Francisco, CA / New York, NY / US (Remote)",
+      "linkedin_or_website": "https://andrewtanjobs.substack.com/p/startup-jobs-49-anthropic-lovable",
+      "funding": "Various stages: Pre-Seed, Seed, Series A, Series B, Series C, Series D",
+      "summary": "A curated startup jobs newsletter (#49) featuring engineering, product, design, and business roles across multiple fast-growing startups including Anthropic, Haize Labs, Retell AI, and others."
+    },
     {
       "date_received": "2026-04-12T14:49:47+00:00",
       "date_added": "April 19, 2026",
