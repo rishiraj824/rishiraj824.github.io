@@ -22,15 +22,14 @@ permalink: /jobs/
     .jobs-table tr { display:block; border:1px solid #e0e0e0; border-radius:8px; margin-bottom:12px; padding:10px; }
     .jobs-table td { display:block; padding:4px 0; border:none; font-size:0.85em; }
     .jobs-table td:before { font-weight:bold; margin-right:6px; color:#555; }
-    .jobs-table td:nth-child(1):before { content:"Added: "; }
-    .jobs-table td:nth-child(2):before { content:"Company: "; }
-    .jobs-table td:nth-child(3):before { content:"Role: "; }
-    .jobs-table td:nth-child(4):before { content:"Status: "; }
-    .jobs-table td:nth-child(5):before { content:"Pay: "; }
-    .jobs-table td:nth-child(6):before { content:"Remote: "; }
-    .jobs-table td:nth-child(7):before { content:"Location: "; }
-    .jobs-table td:nth-child(8):before { content:"Funding: "; }
-    .jobs-table td:nth-child(9):before { content:"Link: "; }
+    .jobs-table td:nth-child(1):before { content:"Company: "; }
+    .jobs-table td:nth-child(2):before { content:"Role: "; }
+    .jobs-table td:nth-child(3):before { content:"Pay: "; }
+    .jobs-table td:nth-child(4):before { content:"Remote: "; }
+    .jobs-table td:nth-child(5):before { content:"Location: "; }
+    .jobs-table td:nth-child(6):before { content:"Funding: "; }
+    .jobs-table td:nth-child(7):before { content:"Link: "; }
+    .jobs-table td:nth-child(8):before { content:"Added: "; }
   }
 </style>
 
@@ -55,30 +54,28 @@ permalink: /jobs/
       }
       const rows = jobs.map(j => `
         <tr>
-          <td style="color:#999;font-size:0.8em;white-space:nowrap;">${j.date_added || ''}</td>
           <td><strong>${j.company || '—'}</strong></td>
           <td>${j.role || '—'}</td>
-          <td><span class="status-badge">${j.status || ''}</span></td>
           <td>${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
           <td>${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
           <td>${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
           <td>${j.funding && j.funding !== 'Not mentioned' ? j.funding : '—'}</td>
           <td>${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? `<a href="${j.linkedin_or_website}" target="_blank">Link</a>` : '—'}</td>
+          <td style="color:#999;font-size:0.8em;white-space:nowrap;">${j.date_added || ''}</td>
         </tr>
       `).join('');
       container.innerHTML = `
         <table class="jobs-table">
           <thead>
             <tr>
-              <th>Date Added</th>
               <th>Company</th>
               <th>Role</th>
-              <th>Status</th>
               <th>Pay</th>
               <th>Remote</th>
               <th>Location</th>
               <th>Funding</th>
               <th>Link</th>
+              <th>Date Added</th>
             </tr>
           </thead>
           <tbody>${rows}</tbody>
