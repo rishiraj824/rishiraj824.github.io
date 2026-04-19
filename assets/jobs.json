@@ -1,6 +1,34 @@
 {
-  "last_updated": "April 19, 2026 at 03:45 PM",
+  "last_updated": "April 19, 2026 at 04:29 PM",
   "jobs": [
+    {
+      "date_received": "2026-04-13T22:05:58+00:00",
+      "date_added": "April 19, 2026",
+      "company": "Computational Photography Startup",
+      "role": "Software Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Remote",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://cerebralvalley.ai",
+      "funding": "Fully bootstrapped with >8 figures ARR",
+      "skills": "Computational photography, photo upscaling, image generation",
+      "summary": "Cerebral Valley's weekly newsletter includes a job listing for a remote Software Engineer at a bootstrapped computational photography startup focused on photo upscaling and generation for real estate and spatial photography."
+    },
+    {
+      "date_received": "2026-04-19T19:07:00-04:00",
+      "date_added": "April 19, 2026",
+      "company": "Qualified Health",
+      "role": "Frontend Software Engineer",
+      "status": "Other",
+      "pay": "$180,000 - $220,000 + Equity + Benefits + Unlimited PTO",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Bay Area, USA",
+      "linkedin_or_website": "https://tracking.us.nylas.com/l/acbfd893eb334282a84fcdf761774ada/0/d0e723ed3f65c63617cb94c9eea0d9072759bd5916e3d7bc646d2798e9da0128?cache_buster=1776640020",
+      "funding": "Series B, $125 million",
+      "skills": "Frontend development, Generative AI, workflow builder development, feature design, scalability",
+      "summary": "Recruiter Dana Leone from Qualified Health, a Health-Tech AI startup that recently raised a $125M Series B, is reaching out about a Frontend Software Engineer role in the Bay Area offering $180K-$220K plus equity and benefits."
+    },
     {
       "date_received": "2026-04-12T19:54:11+00:00",
       "date_added": "April 19, 2026",
