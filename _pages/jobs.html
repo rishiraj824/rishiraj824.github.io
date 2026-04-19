@@ -47,7 +47,7 @@ permalink: /jobs/
           </div>
           ${j.summary ? `<p style="margin:10px 0 0;font-size:0.9em;">${j.summary}</p>` : ''}
           <div style="margin-top:10px;font-size:0.8em;color:#999;">
-            ${j.date_received || ''}
+            ${j.date_added ? `Added ${j.date_added}` : ''}
             ${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? ` · <a href="${j.linkedin_or_website}" target="_blank">Apply / Learn more</a>` : ''}
           </div>
         </div>
