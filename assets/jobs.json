@@ -1,6 +1,62 @@
 {
-  "last_updated": "April 19, 2026 at 04:29 PM",
+  "last_updated": "April 19, 2026 at 04:56 PM",
   "jobs": [
+    {
+      "date_received": "2026-04-16T04:31:22-07:00",
+      "date_added": "April 19, 2026",
+      "company": "Not mentioned (represented by Realm Group / Barnaby De Hoedt)",
+      "role": "Lead Backend Engineer",
+      "status": "Other",
+      "pay": "$180K\u2013$250K base + equity",
+      "remote_or_onsite": "Hybrid",
+      "location": "San Francisco, USA",
+      "linkedin_or_website": "realmgroup.io",
+      "funding": "Tier-1 VC backed (stage/amount not specified)",
+      "skills": "Go, distributed systems, microservices, data modeling, Postgres, Cassandra, CockroachDB, AWS, GCP, Docker, Kubernetes, security best practices, cryptography, auth, compliance, FinTech/payments, blockchain, AI/LLM infrastructure",
+      "summary": "Recruiter Barnaby De Hoedt outreach for a hybrid Lead Backend Engineer role in San Francisco at an unnamed Tier-1 VC-backed agentic AI and payments infrastructure startup, offering up to $250K base plus equity."
+    },
+    {
+      "date_received": "2026-04-16T18:53:36+00:00",
+      "date_added": "April 19, 2026",
+      "company": "AnswerThis",
+      "role": "Founding Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, USA",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "YC backed, investors include leaders at OpenAI",
+      "skills": "GenAI pipelines, Next.js",
+      "summary": "Recruiter Edmund from AnswerThis is reaching out to Rishi about a Founding Engineer role at a YC-backed SF startup building AI tools for scientific literature review."
+    },
+    {
+      "date_received": "2026-04-18T00:25:15-07:00",
+      "date_added": "April 19, 2026",
+      "company": "Not mentioned (stealth/unnamed company via Realm Group)",
+      "role": "Lead Backend Engineer",
+      "status": "Follow-up",
+      "pay": "$180K-$250K base + equity",
+      "remote_or_onsite": "Hybrid",
+      "location": "San Francisco, USA",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "Tier 1 / top-tier VC-backed (amount not specified)",
+      "skills": "Go, distributed systems, microservices, data modeling, PostgreSQL, Cassandra, CockroachDB, security best practices, authentication, cryptography, compliance, AWS, GCP, Docker, Kubernetes, real-time payments, identity systems, blockchain, AI/LLM infrastructure",
+      "summary": "Recruiter Barnaby De Hoedt from Realm Group is following up on a Lead Backend Engineer (Go) role at an unnamed VC-backed startup building agentic AI payments and identity infrastructure in San Francisco, offering $180K-$250K base plus equity."
+    },
+    {
+      "date_received": "2026-04-19T11:01:49-07:00",
+      "date_added": "April 19, 2026",
+      "company": "Doss",
+      "role": "Sr Backend Engineer",
+      "status": "Follow-up",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "Series A, $17MM (February 2025)",
+      "skills": "Backend engineering, cloud platform development, ERP/SaaS applications",
+      "summary": "Recruiter Terese Da\u00f1o from EQ Recruiting is following up with Rishi about Senior Backend Engineer openings at Doss, a Series A SaaS startup building an ERP alternative in San Francisco, requesting a 15-20 minute introductory call."
+    },
     {
       "date_received": "2026-04-13T22:05:58+00:00",
       "date_added": "April 19, 2026",
