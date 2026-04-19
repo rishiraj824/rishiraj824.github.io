@@ -11,6 +11,29 @@ permalink: /jobs/
   <a href="https://buymeacoffee.com/rishiraj824" target="_blank" style="display:inline-block;background:#FFDD00;color:#000;font-weight:bold;padding:10px 20px;border-radius:6px;text-decoration:none;">☕ Buy me a coffee</a>
 </div>
 
+<style>
+  .jobs-table { width:100%; border-collapse:collapse; font-size:0.9em; }
+  .jobs-table th { padding:10px 12px; border-bottom:2px solid #e0e0e0; text-align:left; white-space:nowrap; }
+  .jobs-table td { padding:10px 12px; border-bottom:1px solid #f0f0f0; vertical-align:top; }
+  .jobs-table tr:hover td { background:#fafafa; }
+  .status-badge { background:#f0f0f0; padding:2px 8px; border-radius:10px; font-size:0.8em; white-space:nowrap; }
+  @media (max-width: 700px) {
+    .jobs-table thead { display:none; }
+    .jobs-table tr { display:block; border:1px solid #e0e0e0; border-radius:8px; margin-bottom:12px; padding:10px; }
+    .jobs-table td { display:block; padding:4px 0; border:none; font-size:0.85em; }
+    .jobs-table td:before { font-weight:bold; margin-right:6px; color:#555; }
+    .jobs-table td:nth-child(1):before { content:"Added: "; }
+    .jobs-table td:nth-child(2):before { content:"Company: "; }
+    .jobs-table td:nth-child(3):before { content:"Role: "; }
+    .jobs-table td:nth-child(4):before { content:"Status: "; }
+    .jobs-table td:nth-child(5):before { content:"Pay: "; }
+    .jobs-table td:nth-child(6):before { content:"Remote: "; }
+    .jobs-table td:nth-child(7):before { content:"Location: "; }
+    .jobs-table td:nth-child(8):before { content:"Funding: "; }
+    .jobs-table td:nth-child(9):before { content:"Link: "; }
+  }
+</style>
+
 <p id="last-updated" style="font-size:0.85em;color:#999;margin-bottom:20px;"></p>
 <div id="jobs-list" style="overflow-x:auto;">
   <p>Loading jobs...</p>
@@ -32,35 +55,33 @@ permalink: /jobs/
       }
       const rows = jobs.map(j => `
         <tr>
-          <td style="white-space:nowrap;color:#999;font-size:0.8em;">${j.date_added || ''}</td>
+          <td style="color:#999;font-size:0.8em;white-space:nowrap;">${j.date_added || ''}</td>
           <td><strong>${j.company || '—'}</strong></td>
           <td>${j.role || '—'}</td>
-          <td><span style="background:#f0f0f0;padding:2px 8px;border-radius:10px;font-size:0.8em;white-space:nowrap;">${j.status || ''}</span></td>
-          <td style="font-size:0.85em;">${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
-          <td style="font-size:0.85em;">${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
-          <td style="font-size:0.85em;">${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
-          <td style="font-size:0.85em;">${j.funding && j.funding !== 'Not mentioned' ? j.funding : '—'}</td>
-          <td style="font-size:0.85em;">${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? `<a href="${j.linkedin_or_website}" target="_blank">Link</a>` : '—'}</td>
+          <td><span class="status-badge">${j.status || ''}</span></td>
+          <td>${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
+          <td>${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
+          <td>${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
+          <td>${j.funding && j.funding !== 'Not mentioned' ? j.funding : '—'}</td>
+          <td>${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? `<a href="${j.linkedin_or_website}" target="_blank">Link</a>` : '—'}</td>
         </tr>
       `).join('');
       container.innerHTML = `
-        <table style="width:100%;border-collapse:collapse;font-size:0.9em;">
+        <table class="jobs-table">
           <thead>
-            <tr style="border-bottom:2px solid #e0e0e0;text-align:left;">
-              <th style="padding:8px 12px 8px 0;white-space:nowrap;">Date Added</th>
-              <th style="padding:8px 12px;">Company</th>
-              <th style="padding:8px 12px;">Role</th>
-              <th style="padding:8px 12px;">Status</th>
-              <th style="padding:8px 12px;">Pay</th>
-              <th style="padding:8px 12px;">Remote</th>
-              <th style="padding:8px 12px;">Location</th>
-              <th style="padding:8px 12px;">Funding</th>
-              <th style="padding:8px 12px;">Link</th>
+            <tr>
+              <th>Date Added</th>
+              <th>Company</th>
+              <th>Role</th>
+              <th>Status</th>
+              <th>Pay</th>
+              <th>Remote</th>
+              <th>Location</th>
+              <th>Funding</th>
+              <th>Link</th>
             </tr>
           </thead>
-          <tbody>
-            ${rows}
-          </tbody>
+          <tbody>${rows}</tbody>
         </table>
       `;
     })
