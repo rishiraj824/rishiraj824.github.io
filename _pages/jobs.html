@@ -24,12 +24,13 @@ permalink: /jobs/
     .jobs-table td:before { font-weight:bold; margin-right:6px; color:#555; }
     .jobs-table td:nth-child(1):before { content:"Company: "; }
     .jobs-table td:nth-child(2):before { content:"Role: "; }
-    .jobs-table td:nth-child(3):before { content:"Pay: "; }
-    .jobs-table td:nth-child(4):before { content:"Remote: "; }
-    .jobs-table td:nth-child(5):before { content:"Location: "; }
-    .jobs-table td:nth-child(6):before { content:"Funding: "; }
-    .jobs-table td:nth-child(7):before { content:"Link: "; }
-    .jobs-table td:nth-child(8):before { content:"Added: "; }
+    .jobs-table td:nth-child(3):before { content:"Skills: "; }
+    .jobs-table td:nth-child(4):before { content:"Pay: "; }
+    .jobs-table td:nth-child(5):before { content:"Remote: "; }
+    .jobs-table td:nth-child(6):before { content:"Location: "; }
+    .jobs-table td:nth-child(7):before { content:"Funding: "; }
+    .jobs-table td:nth-child(8):before { content:"Link: "; }
+    .jobs-table td:nth-child(9):before { content:"Added: "; }
   }
 </style>
 
@@ -56,6 +57,7 @@ permalink: /jobs/
         <tr>
           <td><strong>${j.company || '—'}</strong></td>
           <td>${j.role || '—'}</td>
+          <td style="font-size:0.8em;">${j.skills && j.skills !== 'Not mentioned' ? j.skills : '—'}</td>
           <td>${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
           <td>${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
           <td>${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
@@ -70,6 +72,7 @@ permalink: /jobs/
             <tr>
               <th>Company</th>
               <th>Role</th>
+              <th>Skills</th>
               <th>Pay</th>
               <th>Remote</th>
               <th>Location</th>
