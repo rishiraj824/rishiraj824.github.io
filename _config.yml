@@ -47,6 +47,9 @@ navigation:
     url: /work/
     desc: Professional Dev
     desc: About me
+  - title: Job Leads
+    url: /jobs/
+    desc: Curated recruiter job leads updated daily
   - title: Resume
     url: /assets/Resume.pdf
 

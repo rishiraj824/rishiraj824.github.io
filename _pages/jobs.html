@@ -1,0 +1,53 @@
+---
+layout: page
+title: Job Leads
+subtitle: Job Leads
+desc: Curated job leads from recruiters — updated daily by an AI agent.
+permalink: /jobs/
+---
+
+<div style="margin-bottom: 24px;">
+  <p>Recruiter outreach I receive, curated and posted daily. If this helped you land a role or saved you time, consider buying me a coffee ☕</p>
+  <a href="https://buymeacoffee.com/rishiraj824" target="_blank" style="display:inline-block;background:#FFDD00;color:#000;font-weight:bold;padding:10px 20px;border-radius:6px;text-decoration:none;">☕ Buy me a coffee</a>
+</div>
+
+<div id="jobs-list">
+  <p>Loading jobs...</p>
+</div>
+
+<script>
+  fetch('/assets/jobs.json')
+    .then(r => r.json())
+    .then(jobs => {
+      const container = document.getElementById('jobs-list');
+      if (!jobs.length) {
+        container.innerHTML = '<p>No jobs posted yet — check back soon.</p>';
+        return;
+      }
+      container.innerHTML = jobs.map(j => `
+        <div style="border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin-bottom:16px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;">
+            <div>
+              <h3 style="margin:0 0 4px;">${j.role || 'Role not specified'}</h3>
+              <strong>${j.company || 'Company not specified'}</strong>
+            </div>
+            <span style="background:#f0f0f0;padding:4px 10px;border-radius:12px;font-size:0.85em;">${j.status || ''}</span>
+          </div>
+          <div style="margin-top:10px;font-size:0.9em;color:#555;display:flex;flex-wrap:wrap;gap:12px;">
+            ${j.pay && j.pay !== 'Not mentioned' ? `<span>💰 ${j.pay}</span>` : ''}
+            ${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? `<span>🏠 ${j.remote_or_onsite}</span>` : ''}
+            ${j.location && j.location !== 'Not mentioned' ? `<span>📍 ${j.location}</span>` : ''}
+            ${j.funding && j.funding !== 'Not mentioned' ? `<span>🚀 ${j.funding}</span>` : ''}
+          </div>
+          ${j.summary ? `<p style="margin:10px 0 0;font-size:0.9em;">${j.summary}</p>` : ''}
+          <div style="margin-top:10px;font-size:0.8em;color:#999;">
+            ${j.date_received || ''}
+            ${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? ` · <a href="${j.linkedin_or_website}" target="_blank">Apply / Learn more</a>` : ''}
+          </div>
+        </div>
+      `).join('');
+    })
+    .catch(() => {
+      document.getElementById('jobs-list').innerHTML = '<p>Could not load jobs. Try again later.</p>';
+    });
+</script>
