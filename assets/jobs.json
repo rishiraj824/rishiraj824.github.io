@@ -1,4 +1,122 @@
 {
-  "last_updated": "",
-  "jobs": []
+  "last_updated": "April 19, 2026 at 03:35 PM",
+  "jobs": [
+    {
+      "date_received": "2026-04-12T14:49:47+00:00",
+      "date_added": "April 19, 2026",
+      "company": "Supabase",
+      "role": "Multiple (Customer Solutions Architect, Postgres Engineer, Developer Relations Engineer)",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://supabase.com/careers",
+      "funding": "Not mentioned",
+      "summary": "Supabase's April 2026 newsletter includes product updates and highlights open job listings for Customer Solutions Architect, Postgres Engineer, and Developer Relations Engineer roles."
+    },
+    {
+      "date_received": "2026-04-12T19:54:11+00:00",
+      "date_added": "April 19, 2026",
+      "company": "Unknown (Trading Firm via Acquire Me)",
+      "role": "Software Engineer (Distributed Trading System)",
+      "status": "Follow-up",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://trail.acquireme.io/api/t/c/usr_WMRgtHPLXe2exPQCM/tsk_pxjjrvvf6d2ycXKME/enc_U2FsdGVkX18_QWzkAcfFI6UT4zZi-y-nhwhupOVMvV_GvT7_wIWo0dsofAtb1rcputYh0K00OkXljA64Wi-_quL5a9lBZSodnFXQWnK4PFjhFXSr0Oiu_ujNHkutGZ-v",
+      "funding": "Not mentioned",
+      "summary": "Headhunter Luciano Iacona from Acquire Me has made multiple follow-up outreach attempts to recruit Rishi for a software engineering role building a greenfield distributed trading platform at an unnamed trading firm."
+    },
+    {
+      "date_received": "2026-04-13T01:01:27-04:00",
+      "date_added": "April 19, 2026",
+      "company": "Evercars",
+      "role": "Senior Software Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Hybrid",
+      "location": "San Francisco, USA",
+      "linkedin_or_website": "https://tracking.us.nylas.com/l/8bdc55b2387d49e596629c57e62b418f/0/a2fd7c80568d12c6d2773c694c9a7b441ed301efffe5c2c8989689ad9b94ea00?cache_buster=1776056487",
+      "funding": "$100M",
+      "summary": "Recruiter from RISE Search is reaching out about a Senior Software Engineer role at Evercars, an AI-native electric car reseller in downtown SF with $100M in funding and 50+ employees."
+    },
+    {
+      "date_received": "2026-04-13T16:41:09+00:00",
+      "date_added": "April 19, 2026",
+      "company": "AnswerThis",
+      "role": "Founding Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, USA",
+      "linkedin_or_website": "findanswerthis.com",
+      "funding": "YC (Y Combinator) backed, with investment from OpenAI leaders",
+      "summary": "AnswerThis, a YC-backed SF startup serving 300,000 scientists, is recruiting a Founding Engineer to own their GenAI pipelines and Next.js architecture."
+    },
+    {
+      "date_received": "2026-04-13T17:15:54+00:00",
+      "date_added": "April 19, 2026",
+      "company": "Unify",
+      "role": "Staff Engineer, Growth Engineering",
+      "status": "Follow-up",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://www.linkedin.com/in/matt-labrie",
+      "funding": "Not mentioned",
+      "summary": "Recruiter Matt LaBrie from SingleSprout is following up for the third time on a Staff Engineer, Growth Engineering role at Unify, an AI-powered revenue team platform, asking if Rishi is open to a conversation."
+    },
+    {
+      "date_received": "2026-04-14T11:11:46+00:00",
+      "date_added": "April 19, 2026",
+      "company": "Multiple (Anthropic, Lovable, Momentic, Haize Labs, Retell AI, and others)",
+      "role": "Multiple roles (Engineering, Product, Design, Business)",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Hybrid",
+      "location": "New York, NY / San Francisco, CA / US (Remote/Hybrid)",
+      "linkedin_or_website": "https://andrewtanjobs.substack.com/p/startup-jobs-49-anthropic-lovable",
+      "funding": "Various stages: Pre-Seed, Seed, Series A, Series B, Series C, Series D",
+      "summary": "A curated startup jobs newsletter (#49) by Andrew Tan featuring engineering, product, and design roles at fast-growing startups including Anthropic, Haize Labs, Retell AI, and others across New York and San Francisco."
+    },
+    {
+      "date_received": "2026-04-14T08:45:41-07:00",
+      "date_added": "April 19, 2026",
+      "company": "Tolan",
+      "role": "Backend Product Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, USA",
+      "linkedin_or_website": "https://www.tolans.com/careers/role?id=a3d04d1f-8b7d-4b04-ab9d-7f98eb4d6503",
+      "funding": "$30M raised (Khosla, Homebrew, Lachy Groom); $30M+ ARR",
+      "summary": "Recruiter Kelly Pike from Tolan is reaching out about a Backend Product Engineer role at a voice-first AI companion startup that has raised $30M and is scaling to ~50 employees in SF."
+    },
+    {
+      "date_received": "2026-04-14T20:32:08+00:00",
+      "date_added": "April 19, 2026",
+      "company": "Owner.com",
+      "role": "Sr/Staff Engineer",
+      "status": "Other",
+      "pay": "$210,000\u2013$270,000 base + equity",
+      "remote_or_onsite": "Remote",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://www.owner.com/c",
+      "funding": "Series C, $120M",
+      "summary": "Recruiter Brandon Smouse from Quantum is reaching out on behalf of Owner.com, a Series C AI startup, for a Sr/Staff Engineer role offering $210\u2013270K base plus equity, fully remote."
+    },
+    {
+      "date_received": "2026-04-16T10:45:47-07:00",
+      "date_added": "April 19, 2026",
+      "company": "Tolan",
+      "role": "Not mentioned",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://www.tolans.com",
+      "funding": "Not mentioned",
+      "summary": "Kelly Pike from Tolan, a voice-first AI companion app with 3M+ downloads and 250K+ monthly active users, reached out to Rishi with a recruiter outreach email highlighting the company but without specifying a role or position."
+    }
+  ]
 }
