@@ -1,6 +1,20 @@
 {
-  "last_updated": "April 19, 2026 at 04:56 PM",
+  "last_updated": "April 20, 2026 at 02:08 PM",
   "jobs": [
+    {
+      "date_received": "2026-04-17T14:35:48-07:00",
+      "date_added": "April 20, 2026",
+      "company": "Green",
+      "role": "Engineering",
+      "status": "Follow-up",
+      "pay": "$400,000 cash",
+      "remote_or_onsite": "Not mentioned",
+      "location": "San Francisco, CA",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "Not mentioned",
+      "skills": "Not mentioned",
+      "summary": "John Loeber from Green, a consumer neobank in SF, is sending a final follow-up regarding an engineering role with $400k cash compensation."
+    },
     {
       "date_received": "2026-04-19T19:07:00-04:00",
       "date_added": "April 19, 2026",
@@ -30,7 +44,7 @@
       "date_added": "April 19, 2026",
       "company": "Stealth (via Realm Group)",
       "role": "Lead Backend Engineer",
-      "pay": "$180K–$250K + equity",
+      "pay": "$180K\u2013$250K + equity",
       "remote_or_onsite": "Hybrid",
       "location": "San Francisco, CA",
       "linkedin_or_website": "realmgroup.io",
@@ -54,7 +68,7 @@
       "date_added": "April 19, 2026",
       "company": "Owner.com",
       "role": "Sr/Staff Engineer",
-      "pay": "$210K–$270K + equity",
+      "pay": "$210K\u2013$270K + equity",
       "remote_or_onsite": "Remote",
       "location": "Remote",
       "linkedin_or_website": "https://www.owner.com/c",
