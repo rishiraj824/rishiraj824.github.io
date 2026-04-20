@@ -56,11 +56,11 @@ permalink: /jobs/
         <tr>
           <td><strong>${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? `<a href="${j.linkedin_or_website}" target="_blank">${j.company || '—'}</a>` : (j.company || '—')}</strong></td>
           <td>${j.role || '—'}</td>
-          <td style="font-size:0.8em;">${j.skills && j.skills !== 'Not mentioned' ? j.skills : '—'}</td>
-          <td>${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
-          <td>${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
-          <td>${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
-          <td>${j.funding && j.funding !== 'Not mentioned' ? j.funding : '—'}</td>
+          <td style="font-size:0.8em;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${j.skills && j.skills !== 'Not mentioned' ? j.skills : ''}">${j.skills && j.skills !== 'Not mentioned' ? j.skills : '—'}</td>
+          <td style="white-space:nowrap;">${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
+          <td style="white-space:nowrap;">${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
+          <td style="white-space:nowrap;">${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
+          <td style="white-space:nowrap;">${j.funding && j.funding !== 'Not mentioned' ? j.funding : '—'}</td>
           <td style="color:#999;font-size:0.8em;white-space:nowrap;">${j.date_added || ''}</td>
         </tr>
       `).join('');
