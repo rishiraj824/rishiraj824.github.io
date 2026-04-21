@@ -17,6 +17,11 @@ permalink: /jobs/
   .jobs-table td { padding:10px 12px; border-bottom:1px solid #f0f0f0; vertical-align:top; }
   .jobs-table tr:hover td { background:#fafafa; }
   .status-badge { background:#f0f0f0; padding:2px 8px; border-radius:10px; font-size:0.8em; white-space:nowrap; }
+  .recruiter-blurred { filter:blur(4px); user-select:none; pointer-events:none; font-size:0.85em; }
+  .recruiter-cell { position:relative; min-width:120px; }
+  .recruiter-reveal { font-size:0.75em; white-space:nowrap; }
+  .recruiter-reveal a { color:#b8860b; text-decoration:none; font-weight:bold; }
+  .recruiter-reveal a:hover { text-decoration:underline; }
   @media (max-width: 700px) {
     .jobs-table thead { display:none; }
     .jobs-table tr { display:block; border:1px solid #e0e0e0; border-radius:8px; margin-bottom:12px; padding:10px; }
@@ -29,7 +34,8 @@ permalink: /jobs/
     .jobs-table td:nth-child(5):before { content:"Remote: "; }
     .jobs-table td:nth-child(6):before { content:"Location: "; }
     .jobs-table td:nth-child(7):before { content:"Funding: "; }
-    .jobs-table td:nth-child(8):before { content:"Added: "; }
+    .jobs-table td:nth-child(8):before { content:"Recruiter: "; }
+    .jobs-table td:nth-child(9):before { content:"Added: "; }
   }
 </style>
 
@@ -52,18 +58,25 @@ permalink: /jobs/
         container.innerHTML = '<p>No jobs posted yet — check back soon.</p>';
         return;
       }
-      const rows = jobs.map(j => `
+      const rows = jobs.map(j => {
+        const recruiterRaw = j.recruiter_email || '';
+        const recruiterDisplay = recruiterRaw
+          ? `<div class="recruiter-blurred">${recruiterRaw}</div>
+             <div class="recruiter-reveal"><a href="https://buymeacoffee.com/rishiraj824" target="_blank">☕ Buy me a coffee to reveal</a></div>`
+          : '—';
+        return `
         <tr>
           <td><strong>${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? `<a href="${j.linkedin_or_website}" target="_blank">${j.company || '—'}</a>` : (j.company || '—')}</strong></td>
           <td>${j.role || '—'}</td>
-          <td style="font-size:0.8em;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${j.skills && j.skills !== 'Not mentioned' ? j.skills : ''}">${j.skills && j.skills !== 'Not mentioned' ? j.skills : '—'}</td>
+          <td style="font-size:0.8em;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${j.skills && j.skills !== 'Not mentioned' ? j.skills : ''}">${j.skills && j.skills !== 'Not mentioned' ? j.skills : '—'}</td>
           <td style="white-space:nowrap;">${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
           <td style="white-space:nowrap;">${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
           <td style="white-space:nowrap;">${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
           <td style="white-space:nowrap;">${j.funding && j.funding !== 'Not mentioned' ? j.funding : '—'}</td>
+          <td class="recruiter-cell">${recruiterDisplay}</td>
           <td style="color:#999;font-size:0.8em;white-space:nowrap;">${j.date_added || ''}</td>
-        </tr>
-      `).join('');
+        </tr>`;
+      }).join('');
       container.innerHTML = `
         <table class="jobs-table">
           <thead>
@@ -75,6 +88,7 @@ permalink: /jobs/
               <th>Remote</th>
               <th>Location</th>
               <th>Funding</th>
+              <th>Recruiter</th>
               <th>Date Added</th>
             </tr>
           </thead>
