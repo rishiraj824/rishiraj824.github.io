@@ -1,6 +1,22 @@
 {
-  "last_updated": "April 20, 2026 at 08:09 PM",
+  "last_updated": "April 20, 2026 at 08:15 PM",
   "jobs": [
+    {
+      "date_received": "2026-04-19T05:41:31-07:00",
+      "date_added": "April 20, 2026",
+      "company": "Adaptive Security",
+      "role": "Software Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Onsite",
+      "location": "New York City, USA",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "Series B, $146M raised (a16z, Bain Capital, OpenAI, NVIDIA)",
+      "skills": "Not mentioned",
+      "recruiter_name": "Millie B",
+      "recruiter_email": "millie@coastalrecruiting.io",
+      "summary": "Recruiter Millie from Coastal Recruiting is reaching out about engineering opportunities at Adaptive Security, a Series B GenAI cybersecurity startup founded by the team behind Attentive, based in NYC."
+    },
     {
       "date_received": "2026-04-20T12:18:20+00:00",
       "date_added": "April 20, 2026",
