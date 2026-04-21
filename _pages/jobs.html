@@ -17,11 +17,7 @@ permalink: /jobs/
   .jobs-table td { padding:10px 12px; border-bottom:1px solid #f0f0f0; vertical-align:top; }
   .jobs-table tr:hover td { background:#fafafa; }
   .status-badge { background:#f0f0f0; padding:2px 8px; border-radius:10px; font-size:0.8em; white-space:nowrap; }
-  .recruiter-blurred { filter:blur(4px); user-select:none; pointer-events:none; font-size:0.85em; }
-  .recruiter-cell { position:relative; min-width:120px; }
-  .recruiter-reveal { font-size:0.75em; white-space:nowrap; }
-  .recruiter-reveal a { color:#b8860b; text-decoration:none; font-weight:bold; }
-  .recruiter-reveal a:hover { text-decoration:underline; }
+  .recruiter-cell { min-width:140px; font-size:0.85em; }
   @media (max-width: 700px) {
     .jobs-table thead { display:none; }
     .jobs-table tr { display:block; border:1px solid #e0e0e0; border-radius:8px; margin-bottom:12px; padding:10px; }
@@ -39,62 +35,106 @@ permalink: /jobs/
   }
 </style>
 
-<p id="last-updated" style="font-size:0.85em;color:#999;margin-bottom:20px;"></p>
+<p id="last-updated" style="font-size:0.85em;color:#999;margin-bottom:12px;"></p>
+
+<div style="margin-bottom:16px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+  <span style="font-size:0.85em;color:#666;">Filter by:</span>
+  <button class="date-filter active" data-days="7">Last 7 days</button>
+  <button class="date-filter" data-days="14">Last 14 days</button>
+  <button class="date-filter" data-days="30">Last 30 days</button>
+  <button class="date-filter" data-days="0">All</button>
+  <span id="job-count" style="font-size:0.8em;color:#999;margin-left:8px;"></span>
+</div>
+
+<style>
+  .date-filter { background:#f0f0f0; border:1px solid #ddd; border-radius:14px; padding:4px 14px; font-size:0.82em; cursor:pointer; }
+  .date-filter:hover { background:#e0e0e0; }
+  .date-filter.active { background:#222; color:#fff; border-color:#222; }
+</style>
+
 <div id="jobs-list" style="overflow-x:auto;">
   <p>Loading jobs...</p>
 </div>
 
 <script>
+  let allJobs = [];
+
+  function jobDate(j) {
+    const s = j.date_received || j.date_added || '';
+    return s ? new Date(s) : null;
+  }
+
+  function renderJobs(days) {
+    const container = document.getElementById('jobs-list');
+    const cutoff = days > 0 ? new Date(Date.now() - days * 86400000) : null;
+    const filtered = cutoff ? allJobs.filter(j => { const d = jobDate(j); return d && d >= cutoff; }) : allJobs;
+
+    document.getElementById('job-count').textContent = `${filtered.length} job${filtered.length !== 1 ? 's' : ''}`;
+
+    if (!filtered.length) {
+      container.innerHTML = '<p>No jobs in this time range.</p>';
+      return;
+    }
+
+    const rows = filtered.map(j => {
+      const recruiterName = j.recruiter_name && j.recruiter_name !== 'Not mentioned' ? j.recruiter_name : '';
+      const recruiterEmail = j.recruiter_email || '';
+      let recruiterDisplay = '—';
+      if (recruiterName || recruiterEmail) {
+        recruiterDisplay = recruiterName
+          ? `${recruiterName}${recruiterEmail ? `<br><a href="mailto:${recruiterEmail}" style="font-size:0.85em;color:#666;">${recruiterEmail}</a>` : ''}`
+          : `<a href="mailto:${recruiterEmail}" style="color:#666;">${recruiterEmail}</a>`;
+      }
+      return `
+      <tr>
+        <td><strong>${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? `<a href="${j.linkedin_or_website}" target="_blank">${j.company || '—'}</a>` : (j.company || '—')}</strong></td>
+        <td>${j.role || '—'}</td>
+        <td style="font-size:0.8em;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${j.skills && j.skills !== 'Not mentioned' ? j.skills : ''}">${j.skills && j.skills !== 'Not mentioned' ? j.skills : '—'}</td>
+        <td style="white-space:nowrap;">${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
+        <td style="white-space:nowrap;">${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
+        <td style="white-space:nowrap;">${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
+        <td style="white-space:nowrap;">${j.funding && j.funding !== 'Not mentioned' ? j.funding : '—'}</td>
+        <td class="recruiter-cell">${recruiterDisplay}</td>
+        <td style="color:#999;font-size:0.8em;white-space:nowrap;">${j.date_added || ''}</td>
+      </tr>`;
+    }).join('');
+
+    container.innerHTML = `
+      <table class="jobs-table">
+        <thead>
+          <tr>
+            <th>Company</th><th>Role</th><th>Skills</th><th>Pay</th>
+            <th>Remote</th><th>Location</th><th>Funding</th><th>Recruiter</th><th>Date Added</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+  }
+
+  let activeDays = 7;
+
+  document.querySelectorAll('.date-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.date-filter').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeDays = parseInt(btn.dataset.days);
+      renderJobs(activeDays);
+    });
+  });
+
   fetch('/assets/jobs.json')
     .then(r => r.json())
     .then(data => {
-      const jobs = data.jobs || data;
+      allJobs = data.jobs || data;
       const lastUpdated = data.last_updated;
       if (lastUpdated) {
         document.getElementById('last-updated').textContent = `Last updated: ${lastUpdated}`;
       }
-      const container = document.getElementById('jobs-list');
-      if (!jobs.length) {
-        container.innerHTML = '<p>No jobs posted yet — check back soon.</p>';
+      if (!allJobs.length) {
+        document.getElementById('jobs-list').innerHTML = '<p>No jobs posted yet — check back soon.</p>';
         return;
       }
-      const rows = jobs.map(j => {
-        const recruiterRaw = j.recruiter_email || '';
-        const recruiterDisplay = recruiterRaw
-          ? `<div class="recruiter-blurred">${recruiterRaw}</div>
-             <div class="recruiter-reveal"><a href="https://buymeacoffee.com/rishiraj824" target="_blank">☕ Buy me a coffee to reveal</a></div>`
-          : '—';
-        return `
-        <tr>
-          <td><strong>${j.linkedin_or_website && j.linkedin_or_website !== 'Not mentioned' ? `<a href="${j.linkedin_or_website}" target="_blank">${j.company || '—'}</a>` : (j.company || '—')}</strong></td>
-          <td>${j.role || '—'}</td>
-          <td style="font-size:0.8em;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${j.skills && j.skills !== 'Not mentioned' ? j.skills : ''}">${j.skills && j.skills !== 'Not mentioned' ? j.skills : '—'}</td>
-          <td style="white-space:nowrap;">${j.pay && j.pay !== 'Not mentioned' ? j.pay : '—'}</td>
-          <td style="white-space:nowrap;">${j.remote_or_onsite && j.remote_or_onsite !== 'Not mentioned' ? j.remote_or_onsite : '—'}</td>
-          <td style="white-space:nowrap;">${j.location && j.location !== 'Not mentioned' ? j.location : '—'}</td>
-          <td style="white-space:nowrap;">${j.funding && j.funding !== 'Not mentioned' ? j.funding : '—'}</td>
-          <td class="recruiter-cell">${recruiterDisplay}</td>
-          <td style="color:#999;font-size:0.8em;white-space:nowrap;">${j.date_added || ''}</td>
-        </tr>`;
-      }).join('');
-      container.innerHTML = `
-        <table class="jobs-table">
-          <thead>
-            <tr>
-              <th>Company</th>
-              <th>Role</th>
-              <th>Skills</th>
-              <th>Pay</th>
-              <th>Remote</th>
-              <th>Location</th>
-              <th>Funding</th>
-              <th>Recruiter</th>
-              <th>Date Added</th>
-            </tr>
-          </thead>
-          <tbody>${rows}</tbody>
-        </table>
-      `;
+      renderJobs(activeDays);
     })
     .catch(() => {
       document.getElementById('jobs-list').innerHTML = '<p>Could not load jobs. Try again later.</p>';
