@@ -1,6 +1,21 @@
 {
-  "last_updated": "April 20, 2026 at 02:08 PM",
+  "last_updated": "April 20, 2026 at 08:09 PM",
   "jobs": [
+    {
+      "date_received": "2026-04-20T12:18:20+00:00",
+      "date_added": "April 20, 2026",
+      "company": "Butter",
+      "role": "Software Engineer",
+      "status": "Follow-up",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://usebutter.notion.site/Butter-Customer-Love-08916b04c47b4cd1b4728e3c83555813",
+      "funding": "Backed by OpenAI & Shopify leaders",
+      "skills": "Not mentioned",
+      "recruiter_email": "Amit Matani <amit@butter.wellfound.info>",
+      "summary": "Recruiter Amit Matani from Wellfound is following up about a Software Engineer role at Butter, a video creation startup backed by OpenAI and Shopify leaders."
+    },
     {
       "date_received": "2026-04-17T14:35:48-07:00",
       "date_added": "April 20, 2026",
