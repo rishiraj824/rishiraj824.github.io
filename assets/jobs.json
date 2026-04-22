@@ -1,5 +1,5 @@
 {
-  "last_updated": "April 21, 2026 at 08:00 AM",
+  "last_updated": "April 22, 2026 at 12:57 PM",
   "jobs": [
     {
       "date_received": "2026-04-21T06:00:05-07:00",
@@ -162,22 +162,6 @@
       "summary": "Recruiter Millie from Coastal Recruiting is reaching out about engineering roles at Adaptive Security, a GenAI-native cybersecurity startup with $146M Series B funding, founded by the team behind Attentive and TapCommerce."
     },
     {
-      "date_received": "2026-03-23T10:56:26-07:00",
-      "date_added": "April 20, 2026",
-      "company": "PermitFlow",
-      "role": "Engineering",
-      "status": "Follow-up",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "https://jobs.ashbyhq.com/permitflow?departmentId=d33195eb-8978-4439-abc6-5a8a072de808",
-      "funding": "$90.5M raised, Series B led by Accel",
-      "skills": "AI agents",
-      "recruiter_name": "Samuel Lam",
-      "recruiter_email": "slam@permitflow.com",
-      "summary": "PermitFlow's CTO Samuel Lam is following up with Rishi about engineering roles at the company, highlighting their $90.5M raised and AI capabilities."
-    },
-    {
       "date_received": "2026-03-24T20:35:10+00:00",
       "date_added": "April 20, 2026",
       "company": "Revel",
@@ -320,22 +304,6 @@
       "recruiter_name": "Kelly Pike",
       "recruiter_email": "kelly@portola.ai",
       "summary": "Kelly from Tolan (portola.ai) reached out to Rishi about potential opportunities building voice-native, real-time AI systems, highlighting their approach to context rebuilding, memory, and sub-second latency."
-    },
-    {
-      "date_received": "2026-03-23T09:35:47+00:00",
-      "date_added": "April 20, 2026",
-      "company": "Access Avidity",
-      "role": "Senior/Staff Full-Stack Engineer",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Onsite",
-      "location": "San Francisco, USA",
-      "linkedin_or_website": "Not mentioned",
-      "funding": "Not mentioned",
-      "skills": "TypeScript, Node.js, React, C++, Swift, Electron, AI/LLM, desktop application development",
-      "recruiter_name": "Stephen Levis",
-      "recruiter_email": "Stephen.Levis@access-avidity.com",
-      "summary": "Recruiter Stephen Levis from Access Avidity is reaching out about a Senior/Staff Full-Stack Engineer role in San Francisco focused on building an AI-powered desktop application using Electron, TypeScript, React, and native technologies."
     },
     {
       "date_received": "2026-03-31T17:28:40+00:00",
