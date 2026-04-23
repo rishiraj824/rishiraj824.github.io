@@ -1,6 +1,22 @@
 {
-  "last_updated": "April 22, 2026 at 12:57 PM",
+  "last_updated": "April 23, 2026 at 08:00 AM",
   "jobs": [
+    {
+      "date_received": "2026-04-22T20:32:04+00:00",
+      "date_added": "April 23, 2026",
+      "company": "Robert Half Technology (recruiting for undisclosed client)",
+      "role": "Senior Full Stack Engineer (with growth opportunity to CTO)",
+      "status": "Other",
+      "pay": "$200,000 - $250,000",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://www.linkedin.com/messaging/thread/2-YTIyMTk0MTQtNzM5Zi00YjZiLTgxMWQtOTc0Y2M2M2Y0YWYwXzEwMA==/",
+      "funding": "Not mentioned",
+      "skills": "TypeScript, Python, React, Next.js, tRPC, Flask, Generative AI, full-stack development, frontend tooling, build systems, deployment workflows",
+      "recruiter_name": "Elicia M. Bansuelo",
+      "recruiter_email": "inmail-hit-reply@linkedin.com",
+      "summary": "Recruiter Elicia Bansuelo from Robert Half Technology reached out via LinkedIn about a Senior Full Stack Engineer role paying $200\u2013$250k, with a path to CTO, requiring React, Next.js, TypeScript, and Python skills."
+    },
     {
       "date_received": "2026-04-21T06:00:05-07:00",
       "date_added": "April 21, 2026",
