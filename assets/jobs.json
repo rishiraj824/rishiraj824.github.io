@@ -1,6 +1,38 @@
 {
-  "last_updated": "April 27, 2026 at 08:23 PM",
+  "last_updated": "April 28, 2026 at 03:52 PM",
   "jobs": [
+    {
+      "date_received": "2026-04-27T10:03:47-05:00",
+      "date_added": "April 28, 2026",
+      "company": "Develop Health",
+      "role": "Senior Software Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://www.getrocket.com/",
+      "funding": "$14M Series A from Wing and South Park Commons",
+      "skills": "LLMs, AI products, software engineering",
+      "recruiter_name": "Reem Lotfy",
+      "recruiter_email": "reem_lotfy@jobs.getrocket.io",
+      "summary": "Recruiter Reem Lotfy from Rocket is reaching out about a Senior Software Engineer role at Develop Health, an AI healthtech startup with $14M Series A funding that has scaled to $10M ARR."
+    },
+    {
+      "date_received": "2026-04-27T12:36:21-04:00",
+      "date_added": "April 28, 2026",
+      "company": "Kiddom",
+      "role": "Senior Backend Engineer / Senior Fullstack Engineer",
+      "status": "Follow-up",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://znsrc.com/c/joktjikbjk",
+      "funding": "Series C, $100M+ raised",
+      "skills": "Backend Engineering, Fullstack Engineering, AI",
+      "recruiter_name": "Juan Serrano",
+      "recruiter_email": "juan@kiddom.co",
+      "summary": "Senior Technical Recruiter Juan Serrano from Kiddom (Series C EdTech startup) is following up on outreach to Rishi about Senior Backend Engineer and Senior Fullstack Engineer roles on their AI-powered K-12 platform."
+    },
     {
       "date_received": "2026-04-22T20:32:04+00:00",
       "date_added": "April 27, 2026",
