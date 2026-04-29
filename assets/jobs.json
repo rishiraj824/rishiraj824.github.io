@@ -1,6 +1,22 @@
 {
-  "last_updated": "April 28, 2026 at 03:52 PM",
+  "last_updated": "April 29, 2026 at 03:45 PM",
   "jobs": [
+    {
+      "date_received": "2026-04-28T09:24:32-07:00",
+      "date_added": "April 29, 2026",
+      "company": "PermitFlow",
+      "role": "Software Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://www.permitflow.com/",
+      "funding": "Not mentioned",
+      "skills": "AI agents, software engineering",
+      "recruiter_name": "Francis Thumpasery",
+      "recruiter_email": "francist@permitflow.com",
+      "summary": "PermitFlow CEO Francis Thumpasery is personally reaching out to recruit Rishi as a Software Engineer to help build AI agents for construction workflows, emphasizing ownership and engineering culture."
+    },
     {
       "date_received": "2026-04-27T10:03:47-05:00",
       "date_added": "April 28, 2026",
