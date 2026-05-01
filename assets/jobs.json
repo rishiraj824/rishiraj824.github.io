@@ -1,6 +1,54 @@
 {
-  "last_updated": "April 29, 2026 at 03:45 PM",
+  "last_updated": "May 01, 2026 at 07:52 PM",
   "jobs": [
+    {
+      "date_received": "2026-04-28T11:04:24+05:30",
+      "date_added": "May 01, 2026",
+      "company": "C-CAMP (Centre for Cellular and Molecular Platforms)",
+      "role": "Engineer - MedTech Facility (EEE/ECE/Mechatronics)",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Bengaluru, India",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "Not mentioned",
+      "skills": "Electronic hardware design, EEE, ECE, Mechatronics",
+      "recruiter_name": "VITAA VIT Alumni Association",
+      "recruiter_email": "alumni@vit.ac.in",
+      "summary": "C-CAMP in Bengaluru is hiring an engineer with 2\u20133 years of experience in electronic hardware design for their MedTech Facility, circulated via VIT Alumni Association."
+    },
+    {
+      "date_received": "2026-04-29T17:47:44+00:00",
+      "date_added": "May 01, 2026",
+      "company": "Listen Labs",
+      "role": "Member of the Technical Staff",
+      "status": "Other",
+      "pay": "$200,000 - $300,000 + equity",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "linkedin_or_website": "https://grandmotherhireprox.com/lt/1125900024275884/kGCwLvwojSX0hHCg6FbEG",
+      "funding": "$100M (Sequoia)",
+      "skills": "Not mentioned",
+      "recruiter_name": "Katelyn Ewe",
+      "recruiter_email": "katelyn@brisktalents.com",
+      "summary": "Recruiter Katelyn Ewe from Brisk Talent is reaching out about a Member of the Technical Staff role at Listen Labs, an AI customer research startup backed by Sequoia with $100M in funding, offering $200K-$300K plus equity for an onsite position in San Francisco."
+    },
+    {
+      "date_received": "2026-04-30T18:30:17+00:00",
+      "date_added": "May 01, 2026",
+      "company": "Decagon",
+      "role": "Senior Software Engineer",
+      "status": "Other",
+      "pay": "$200,000 - $400,000 base + equity",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "linkedin_or_website": "https://calendly.com/steeve-zspr/1st-interview-call",
+      "funding": "Series D, $500M raised (Bain Capital Ventures, a16z)",
+      "skills": "Not mentioned",
+      "recruiter_name": "Steeve Alex",
+      "recruiter_email": "s.alex@hires-lumos.com",
+      "summary": "Recruiter from Lumos Talents reached out about a Senior Software Engineer opening at Decagon, an AI customer support automation startup in SF offering $200K-$400K base plus equity."
+    },
     {
       "date_received": "2026-04-28T09:24:32-07:00",
       "date_added": "April 29, 2026",
@@ -128,22 +176,6 @@
       "recruiter_name": "Eric",
       "recruiter_email": "ericvg@doublebond.ai",
       "summary": "Recruiter Eric from Double Bond is following up on a Founding AI Engineer opportunity at an AI-driven healthcare platform, highlighting a competitive salary, meaningful equity, and the chance to shape product and architecture from the ground up."
-    },
-    {
-      "date_received": "2026-03-31T15:28:37-05:00",
-      "date_added": "April 20, 2026",
-      "company": "Skan.ai",
-      "role": "Lead Software Engineer, Frontend",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Onsite",
-      "location": "Bay Area, USA",
-      "linkedin_or_website": "https://www.skan.ai/about-us",
-      "funding": "Not mentioned",
-      "skills": "Frontend development, UI development, Frontend architecture",
-      "recruiter_name": "",
-      "recruiter_email": "poornima@metantz.com",
-      "summary": "Recruiter Poornima from MetAntz is reaching out on behalf of Skan.ai for a Lead Software Engineer, Frontend role based in the Bay Area."
     },
     {
       "date_received": "2026-04-03T19:23:02-04:00",
@@ -336,22 +368,6 @@
       "recruiter_name": "Kelly Pike",
       "recruiter_email": "kelly@portola.ai",
       "summary": "Kelly from Tolan (portola.ai) reached out to Rishi about potential opportunities building voice-native, real-time AI systems, highlighting their approach to context rebuilding, memory, and sub-second latency."
-    },
-    {
-      "date_received": "2026-03-31T17:28:40+00:00",
-      "date_added": "April 20, 2026",
-      "company": "Grow Therapy",
-      "role": "Frontend Platform Engineer",
-      "status": "Other",
-      "pay": "$182K-$250K",
-      "remote_or_onsite": "Hybrid",
-      "location": "NYC / SF / Seattle",
-      "linkedin_or_website": "Not mentioned",
-      "funding": "$178M from Sequoia, TCV, Transformation Capital, and SignalFire",
-      "skills": "TypeScript, React, Next.js, SSR, Core Web Vitals, design systems, experimentation infrastructure, accessibility, AI-assisted workflows",
-      "recruiter_name": "Emily Rhodenbaugh",
-      "recruiter_email": "hiring@growtherapy.wellfound-community.com",
-      "summary": "Recruiter Emily Rhodenbaugh reached out about a Frontend Platform Engineer role at Grow Therapy, a well-funded mental health marketplace, offering $182K-$250K in a hybrid setup across NYC, SF, or Seattle."
     },
     {
       "date_received": "2026-04-05T11:01:35+00:00",
