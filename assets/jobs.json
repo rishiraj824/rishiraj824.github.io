@@ -1,6 +1,22 @@
 {
-  "last_updated": "May 01, 2026 at 07:52 PM",
+  "last_updated": "May 02, 2026 at 03:18 PM",
   "jobs": [
+    {
+      "date_received": "2026-05-01T09:51:03-07:00",
+      "date_added": "May 02, 2026",
+      "company": "Rillet",
+      "role": "Principal Engineer - Product",
+      "status": "Other",
+      "pay": "$250,000 - $280,000 base salary + Equity",
+      "remote_or_onsite": "Hybrid",
+      "location": "San Francisco, USA",
+      "linkedin_or_website": "https://www.rillet.com/",
+      "funding": "$100M raised, Series B, backed by Sequoia, a16z, and ICONIQ",
+      "skills": "Product engineering, ERP, AI, 0-1 feature development",
+      "recruiter_name": "Aaron Edwards",
+      "recruiter_email": "aaron@intelletec.com",
+      "summary": "Recruiter from Intelletec is reaching out about a Principal Engineer - Product role at Rillet, an AI-native ERP startup with $100M raised, offering $250-280k base salary plus equity in a hybrid SF setup."
+    },
     {
       "date_received": "2026-04-28T11:04:24+05:30",
       "date_added": "May 01, 2026",
@@ -272,22 +288,6 @@
       "recruiter_name": "Millie B",
       "recruiter_email": "millie@coastalrecruiting.io",
       "summary": "Recruiter Millie from Coastal Recruiting is reaching out about engineering roles at Adaptive Security, a GenAI-native cybersecurity startup with $146M Series B funding, founded by the team behind Attentive and TapCommerce."
-    },
-    {
-      "date_received": "2026-04-02T12:38:17-05:00",
-      "date_added": "April 20, 2026",
-      "company": "Mashgin",
-      "role": "Engineering",
-      "status": "Follow-up",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Palo Alto, CA",
-      "linkedin_or_website": "https://www.mashgin.com/",
-      "funding": "$1.5 Billion valuation, YC W'15",
-      "skills": "Not mentioned",
-      "recruiter_name": "Derek Kinzel",
-      "recruiter_email": "derek.kinzel@mashgin.com",
-      "summary": "Recruiter Derek Kinzel from Mashgin is following up on a previous outreach regarding engineering opportunities at the $1.5B valued YC-backed startup in Palo Alto, CA."
     },
     {
       "date_received": "2026-04-08T15:28:40-05:00",
