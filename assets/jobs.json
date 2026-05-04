@@ -1,5 +1,5 @@
 {
-  "last_updated": "May 02, 2026 at 03:18 PM",
+  "last_updated": "May 04, 2026 at 03:44 PM",
   "jobs": [
     {
       "date_received": "2026-05-01T09:51:03-07:00",
@@ -192,38 +192,6 @@
       "recruiter_name": "Eric",
       "recruiter_email": "ericvg@doublebond.ai",
       "summary": "Recruiter Eric from Double Bond is following up on a Founding AI Engineer opportunity at an AI-driven healthcare platform, highlighting a competitive salary, meaningful equity, and the chance to shape product and architecture from the ground up."
-    },
-    {
-      "date_received": "2026-04-03T19:23:02-04:00",
-      "date_added": "April 20, 2026",
-      "company": "Lobster Computing",
-      "role": "Not mentioned",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "Not mentioned",
-      "funding": "$100M raised, early-stage",
-      "skills": "multi-agent systems, AI agents, APIs, SDKs, local-first AI, developer platform, coordination, memory, permissions",
-      "recruiter_name": "Alli McNeely",
-      "recruiter_email": "alli@coastalrecruiting.co",
-      "summary": "Recruiter Alli McNeely from Coastal Recruiting is pitching Lobster Computing, a ~5-person early-stage AI startup that has raised $100M and is building an operating system and social layer for the AI agent economy on the OpenClaw platform."
-    },
-    {
-      "date_received": "2026-04-03T21:47:58-05:00",
-      "date_added": "April 20, 2026",
-      "company": "Doppel",
-      "role": "Software Engineer (SWE) - AI-powered Simulations",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "https://www.doppel.com",
-      "funding": "Series C, backed by a16z",
-      "skills": "LLMs, voice synthesis, production systems, AI, social engineering simulations",
-      "recruiter_name": "Daniela Alvarez",
-      "recruiter_email": "dani.alvarez@doppel.com",
-      "summary": "Recruiter Daniela Alvarez from Doppel (Series C, a16z-backed) personally reached out to Rishi about a SWE role on their new AI-powered phishing simulation team, citing his Twitch engineering background."
     },
     {
       "date_received": "2026-04-10T11:18:20-05:00",
