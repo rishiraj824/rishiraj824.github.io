@@ -1,6 +1,38 @@
 {
-  "last_updated": "May 05, 2026 at 03:40 PM",
+  "last_updated": "May 06, 2026 at 03:49 PM",
   "jobs": [
+    {
+      "date_received": "2026-05-05T12:09:07-04:00",
+      "date_added": "May 06, 2026",
+      "company": "Harper",
+      "role": "Senior Software Engineer / Tech Lead",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://www.harperinsure.com",
+      "funding": "Series A, $47M (lead: Emergence, Peak XV, Lobster, Antler, 10x Founders, Fellows Fund, Outset)",
+      "skills": "AI, long-range coding agents, voice AI, memory, multi-agent systems, context engineering, event-sourced distributed systems, security, compliance, ontology layer",
+      "recruiter_name": "Alston Chiang",
+      "recruiter_email": "alston@acaciarecruits.com",
+      "summary": "Recruiter Alston Chiang from Acacia Consulting is reaching out to Rishi about Senior Software Engineer and Tech Lead roles at Harper, a YC-backed AI-native commercial insurance brokerage that has raised a $47M Series A."
+    },
+    {
+      "date_received": "2026-05-06T14:32:03+00:00",
+      "date_added": "May 06, 2026",
+      "company": "Early-stage startup in San Francisco (via G2i)",
+      "role": "Founding Mobile Engineer",
+      "status": "Other",
+      "pay": "$180K\u2013$220K + 0.5%\u20132% equity",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA (Pacific Heights)",
+      "linkedin_or_website": "https://jobs.ashbyhq.com/g2i/93a1bf14-7d13-47f5-81f5-52e0dbbc7bfe",
+      "funding": "Early-stage",
+      "skills": "Mobile app development, UI/UX, AI tools (Cursor, Claude), end-to-end app shipping, performance optimization, product thinking",
+      "recruiter_name": "Juliana Ribeiro Basseto",
+      "recruiter_email": "inmail-hit-reply@linkedin.com",
+      "summary": "Recruiter Juliana Ribeiro Basseto reached out about a Founding Mobile Engineer role at an early-stage SF startup offering $180K\u2013$220K plus meaningful equity, requiring end-to-end mobile app experience and AI tool usage."
+    },
     {
       "date_received": "2026-05-04T16:56:18+00:00",
       "date_added": "May 05, 2026",
