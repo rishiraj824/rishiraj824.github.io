@@ -1,6 +1,38 @@
 {
-  "last_updated": "May 06, 2026 at 03:49 PM",
+  "last_updated": "May 07, 2026 at 03:52 PM",
   "jobs": [
+    {
+      "date_received": "2026-05-05T19:08:56-07:00",
+      "date_added": "May 07, 2026",
+      "company": "Metriport",
+      "role": "Senior+ Software Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "San Francisco, USA",
+      "linkedin_or_website": "https://znsrc.com/c/mhaqgafxdz",
+      "funding": "Backed by top VCs, multi-million ARR, years of runway",
+      "skills": "Cloud-based platforms, Infrastructure as Code, Monitoring, APIs, SDKs, Open-source development",
+      "recruiter_name": "",
+      "recruiter_email": "anna@joinmetriport.com",
+      "summary": "Recruiter Anna from Metriport is reaching out to Rishi about a Senior+ Software Engineer role at their early-stage SF healthcare data startup that has hit multi-million ARR and is backed by top VCs."
+    },
+    {
+      "date_received": "2026-05-06T12:09:39-04:00",
+      "date_added": "May 07, 2026",
+      "company": "Harper Engineering (Harper Insurance)",
+      "role": "Senior Software Engineer / Tech Lead",
+      "status": "Follow-up",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "linkedin_or_website": "https://www.harperinsure.com",
+      "funding": "$47M Series A led by Emergence Capital, with Peak XV, Lobster, Antler, 10x Founders, Fellows Fund, Outset; YC W25 batch",
+      "skills": "AI systems, long-range coding agents, voice AI, multi-agent systems, context engineering, event-sourced distributed systems, security, compliance, distributed systems, classical software engineering",
+      "recruiter_name": "Alston Chiang",
+      "recruiter_email": "alston@acaciarecruits.com",
+      "summary": "Recruiter Alston Chiang from Acacia Consulting is following up on a personal outreach for Senior Software Engineer and Tech Lead roles at Harper, a YC-backed AI-native commercial insurance brokerage that has raised a $47M Series A and is scaling aggressively in San Francisco."
+    },
     {
       "date_received": "2026-05-05T12:09:07-04:00",
       "date_added": "May 06, 2026",
@@ -384,22 +416,6 @@
       "recruiter_name": "Kelly Pike",
       "recruiter_email": "kelly@portola.ai",
       "summary": "Kelly from Tolan (portola.ai) reached out to Rishi about potential opportunities building voice-native, real-time AI systems, highlighting their approach to context rebuilding, memory, and sub-second latency."
-    },
-    {
-      "date_received": "2026-04-06T17:52:05+00:00",
-      "date_added": "April 20, 2026",
-      "company": "Unify",
-      "role": "Staff Engineer, Growth Engineering",
-      "status": "Follow-up",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "https://www.linkedin.com/in/matt-labrie",
-      "funding": "Not mentioned",
-      "skills": "TypeScript, full-stack development, experimentation infrastructure, analytics pipelines, self-serve onboarding, funnel analytics",
-      "recruiter_name": "Matt LaBrie",
-      "recruiter_email": "matt@singlesproutteam.com",
-      "summary": "Recruiter Matt LaBrie from SingleSprout is following up on a Staff Engineer, Growth Engineering role at Unify, seeking someone to lead the growth pod, mentor engineers, and drive high-velocity experiments using TypeScript and analytics."
     },
     {
       "date_received": "2026-04-10T11:18:20-05:00",
