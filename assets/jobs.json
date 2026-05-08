@@ -1,6 +1,38 @@
 {
-  "last_updated": "May 07, 2026 at 03:52 PM",
+  "last_updated": "May 08, 2026 at 03:36 PM",
   "jobs": [
+    {
+      "date_received": "2026-05-07T00:32:02+00:00",
+      "date_added": "May 08, 2026",
+      "company": "Unknown AI company (San Francisco)",
+      "role": "Payments Engineer",
+      "status": "Other",
+      "pay": "$250K\u2013$300K base + 100% bonus + equity (total up to ~$500K)",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "linkedin_or_website": "https://www.linkedin.com/messaging/thread/2-NGRhOGNkNzEtOGFiZS00NWUzLTg1N2YtYzU3MjY3YWM1ZDliXzEwMA==/",
+      "funding": "Not mentioned",
+      "skills": "Stripe, Adyen, Go, Rust, C++",
+      "recruiter_name": "Matthew Browne",
+      "recruiter_email": "inmail-hit-reply@linkedin.com",
+      "summary": "Recruiter Matthew Browne is reaching out on behalf of a well-known AI company in San Francisco seeking a Payments Engineer with Stripe/Adyen and Go/Rust/C++ experience, offering up to ~$500K total compensation."
+    },
+    {
+      "date_received": "2026-05-07T19:55:10-05:00",
+      "date_added": "May 08, 2026",
+      "company": "Decagon AI",
+      "role": "Staff Software Engineer",
+      "status": "Other",
+      "pay": "$430k base + Equity",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco or New York City, USA",
+      "linkedin_or_website": "https://decagon.ai",
+      "funding": "Series D, $250m raised, $4.5b valuation",
+      "skills": "Not mentioned",
+      "recruiter_name": "Aaron Edwards",
+      "recruiter_email": "aaron@intelletec.com",
+      "summary": "Recruiter Aaron Edwards from Intelletec is reaching out about a Staff Software Engineer role at Decagon AI, a Series D conversational AI platform offering up to $430k base salary plus equity in SF or NYC."
+    },
     {
       "date_received": "2026-05-05T19:08:56-07:00",
       "date_added": "May 07, 2026",
@@ -336,22 +368,6 @@
       "recruiter_name": "Millie B",
       "recruiter_email": "millie@coastalrecruiting.io",
       "summary": "Recruiter Millie from Coastal Recruiting is reaching out about engineering roles at Adaptive Security, a GenAI-native cybersecurity startup with $146M Series B funding, founded by the team behind Attentive and TapCommerce."
-    },
-    {
-      "date_received": "2026-04-08T15:28:40-05:00",
-      "date_added": "April 20, 2026",
-      "company": "MetAntz",
-      "role": "Lead Software Engineer, Frontend",
-      "status": "Follow-up",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Bay Area",
-      "linkedin_or_website": "http://metantz.com",
-      "funding": "Not mentioned",
-      "skills": "Not mentioned",
-      "recruiter_name": "",
-      "recruiter_email": "poornima@metantz.com",
-      "summary": "Recruiter Poornima from MetAntz is sending a final follow-up to Rishi regarding a Lead Software Engineer, Frontend role based in the Bay Area."
     },
     {
       "date_received": "2026-04-08T22:37:52+00:00",
