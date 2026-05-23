@@ -1,6 +1,38 @@
 {
-  "last_updated": "May 22, 2026 at 12:04 AM",
+  "last_updated": "May 23, 2026 at 03:27 PM",
   "jobs": [
+    {
+      "date_received": "2026-05-22T17:51:11-07:00",
+      "date_added": "May 23, 2026",
+      "company": "Pantheon",
+      "role": "Not mentioned",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "Not mentioned",
+      "skills": "robotics, machine learning, ML, deployment infrastructure, hardware, autonomous systems, bi-manual manipulation",
+      "recruiter_name": "Alli McNeely",
+      "recruiter_email": "alli@coastalrecruiting.co",
+      "summary": "Recruiter Alli McNeely from Coastal Recruiting is reaching out to promote Pantheon, a full-stack robotics startup focused on specialized autonomous systems and high-reliability production robotics, with a strong founding team from Mercor, Midjourney, xAI, DeepMind, and others."
+    },
+    {
+      "date_received": "2026-05-23T13:20:42+00:00",
+      "date_added": "May 23, 2026",
+      "company": "item",
+      "role": "Founding Engineer / Product Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://www.ycombinator.com/companies/item/jobs/xD9P6r7-product-engineer",
+      "funding": "Seed (recently closed, amount not specified)",
+      "skills": "Next.js, TypeScript, PostgreSQL, Vercel AI SDK, Cursor, Claude Code",
+      "recruiter_name": "Em Rhodenbaugh",
+      "recruiter_email": "em@item.wellfound-talent.com",
+      "summary": "Recruiter Em Rhodenbaugh is reaching out about a founding engineer role at item, a YC F25 agentic CRM startup with a team of 7 and a fresh seed round."
+    },
     {
       "date_received": "2026-05-08T15:35:49+00:00",
       "date_added": "May 22, 2026",
@@ -258,22 +290,6 @@
       "summary": "Senior Technical Recruiter Juan Serrano from Kiddom (Series C EdTech startup) is following up on outreach to Rishi about Senior Backend Engineer and Senior Fullstack Engineer roles on their AI-powered K-12 platform."
     },
     {
-      "date_received": "2026-04-22T20:32:04+00:00",
-      "date_added": "April 27, 2026",
-      "company": "Robert Half Technology (client company not named)",
-      "role": "Sr. Full Stack Engineer (with growth opportunity to CTO)",
-      "status": "Other",
-      "pay": "$200,000 - $250,000",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "https://www.linkedin.com/messaging/thread/2-YTIyMTk0MTQtNzM5Zi00YjZiLTgxMWQtOTc0Y2M2M2Y0YWYwXzEwMA==/",
-      "funding": "Not mentioned",
-      "skills": "TypeScript, Python, React, Next.js, tRPC, Flask, generative AI, frontend tooling, build systems, deployment workflows",
-      "recruiter_name": "Elicia M. Bansuelo",
-      "recruiter_email": "inmail-hit-reply@linkedin.com",
-      "summary": "Recruiter Elicia Bansuelo from Robert Half Technology reached out via LinkedIn about a Sr. Full Stack Engineer role paying $200k\u2013$250k with a path to CTO, requiring React, Next.js, TypeScript, and Python skills."
-    },
-    {
       "date_received": "2026-04-24T18:37:46+00:00",
       "date_added": "April 27, 2026",
       "company": "Listen Labs",
@@ -304,22 +320,6 @@
       "recruiter_name": "Marisol Galindo",
       "recruiter_email": "marisol.galindo@growtherapy.com",
       "summary": "Grow Therapy recruiter Marisol Galindo is reaching out to Rishi about Software Engineer openings at their Series D mental health platform startup, which operates on a hybrid model across SF, NYC, and Seattle."
-    },
-    {
-      "date_received": "2026-04-22T20:32:04+00:00",
-      "date_added": "April 23, 2026",
-      "company": "Robert Half Technology (recruiting for undisclosed client)",
-      "role": "Senior Full Stack Engineer (with growth opportunity to CTO)",
-      "status": "Other",
-      "pay": "$200,000 - $250,000",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "https://www.linkedin.com/messaging/thread/2-YTIyMTk0MTQtNzM5Zi00YjZiLTgxMWQtOTc0Y2M2M2Y0YWYwXzEwMA==/",
-      "funding": "Not mentioned",
-      "skills": "TypeScript, Python, React, Next.js, tRPC, Flask, Generative AI, full-stack development, frontend tooling, build systems, deployment workflows",
-      "recruiter_name": "Elicia M. Bansuelo",
-      "recruiter_email": "inmail-hit-reply@linkedin.com",
-      "summary": "Recruiter Elicia Bansuelo from Robert Half Technology reached out via LinkedIn about a Senior Full Stack Engineer role paying $200\u2013$250k, with a path to CTO, requiring React, Next.js, TypeScript, and Python skills."
     }
   ]
 }
