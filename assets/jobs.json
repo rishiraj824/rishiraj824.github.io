@@ -1,6 +1,38 @@
 {
-  "last_updated": "May 23, 2026 at 03:27 PM",
+  "last_updated": "May 25, 2026 at 03:59 PM",
   "jobs": [
+    {
+      "date_received": "2026-05-25T02:16:20-07:00",
+      "date_added": "May 25, 2026",
+      "company": "Fluidstack",
+      "role": "Product Engineer",
+      "status": "Other",
+      "pay": "$150,000 - $300,000 base + equity",
+      "remote_or_onsite": "Hybrid",
+      "location": "San Francisco, NYC, Seattle, or Austin, USA",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "Not mentioned",
+      "skills": "Product engineering, AI systems, full-stack development, infrastructure, GPU/compute infrastructure",
+      "recruiter_name": "Tom Wetwood",
+      "recruiter_email": "tomwetwood@techrec.cc",
+      "summary": "Recruiter Tom Wetwood is following up on an outreach message about Product Engineer roles at Fluidstack, an AI cloud platform building GPU infrastructure, offering $150k-$300k base salary with hybrid work in major US cities."
+    },
+    {
+      "date_received": "2026-05-25T13:20:40+00:00",
+      "date_added": "May 25, 2026",
+      "company": "Item",
+      "role": "Founding Engineer",
+      "status": "Follow-up",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://reach.wellfound.com/opt_out?candidate_id=1640165&checksum=12b25c2ca69037c4ade757b9594a7e99cfb69eaac139ffb7c5234d7a59169845&sequence_id=19792",
+      "funding": "YC F25",
+      "skills": "AI, agent development, AI models and tools",
+      "recruiter_name": "Em Rhodenbaugh",
+      "recruiter_email": "em@item.wellfound-talent.com",
+      "summary": "Recruiter from Item (YC F25 startup) is following up on a founding engineer opportunity focused on building AI agents for workplace collaboration."
+    },
     {
       "date_received": "2026-05-22T17:51:11-07:00",
       "date_added": "May 23, 2026",
@@ -288,38 +320,6 @@
       "recruiter_name": "Juan Serrano",
       "recruiter_email": "juan@kiddom.co",
       "summary": "Senior Technical Recruiter Juan Serrano from Kiddom (Series C EdTech startup) is following up on outreach to Rishi about Senior Backend Engineer and Senior Fullstack Engineer roles on their AI-powered K-12 platform."
-    },
-    {
-      "date_received": "2026-04-24T18:37:46+00:00",
-      "date_added": "April 27, 2026",
-      "company": "Listen Labs",
-      "role": "Member of Technical Staff",
-      "status": "Other",
-      "pay": "$200,000 - $300,000 + equity",
-      "remote_or_onsite": "Onsite",
-      "location": "San Francisco, CA",
-      "linkedin_or_website": "https://proxwidelychurch.com/lt/1125900024275884/zNecLT-4hPo7sa-ClNmqS",
-      "funding": "$100M (Sequoia)",
-      "skills": "AI, customer research, engineering",
-      "recruiter_name": "Katelyn Ewe",
-      "recruiter_email": "katelyn@brisktalents.com",
-      "summary": "Recruiter Katelyn Ewe from Brisk Talent is reaching out about a Member of Technical Staff role at Listen Labs, an AI-powered customer research startup backed by Sequoia with $100M in funding, offering $200K-$300K plus equity for an onsite position in San Francisco."
-    },
-    {
-      "date_received": "2026-04-25T14:32:23+00:00",
-      "date_added": "April 27, 2026",
-      "company": "Grow Therapy",
-      "role": "Software Engineer (multiple levels)",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Hybrid",
-      "location": "San Francisco, New York City, Seattle",
-      "linkedin_or_website": "https://growtherapy.com",
-      "funding": "Series D, led by TCV and Growth Equity at Goldman Sachs Alternatives",
-      "skills": "Full-stack development, platform engineering",
-      "recruiter_name": "Marisol Galindo",
-      "recruiter_email": "marisol.galindo@growtherapy.com",
-      "summary": "Grow Therapy recruiter Marisol Galindo is reaching out to Rishi about Software Engineer openings at their Series D mental health platform startup, which operates on a hybrid model across SF, NYC, and Seattle."
     }
   ]
 }
