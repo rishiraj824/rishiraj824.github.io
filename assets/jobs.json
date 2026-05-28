@@ -1,6 +1,22 @@
 {
-  "last_updated": "May 27, 2026 at 04:27 PM",
+  "last_updated": "May 28, 2026 at 03:56 PM",
   "jobs": [
+    {
+      "date_received": "2026-05-26T11:40:56-07:00",
+      "date_added": "May 28, 2026",
+      "company": "TalentPerch (client in entertainment monetization)",
+      "role": "Senior Full Stack Engineer",
+      "status": "Follow-up",
+      "pay": "Up to $400k base plus competitive equity",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "linkedin_or_website": "https://calendly.com/laura-talentperch/30min",
+      "funding": "$65M from top VCs including General Catalyst",
+      "skills": "Full stack engineering, distributed systems, web platform architecture, financial infrastructure, infrastructure/DevOps",
+      "recruiter_name": "Laura Johnson",
+      "recruiter_email": "laura@talentperch.com",
+      "summary": "Recruiter Laura Johnson from TalentPerch is following up about a Senior Full Stack Engineer role at a profitable SF-based entertainment monetization startup offering up to $400k base, requiring 5-days-a-week in-office collaboration."
+    },
     {
       "date_received": "2026-05-26T11:50:02-05:00",
       "date_added": "May 27, 2026",
@@ -242,22 +258,6 @@
       "summary": "Recruiter from Intelletec is reaching out about a Principal Engineer - Product role at Rillet, an AI-native ERP startup with $100M raised, offering $250-280k base salary plus equity in a hybrid SF setup."
     },
     {
-      "date_received": "2026-04-28T11:04:24+05:30",
-      "date_added": "May 01, 2026",
-      "company": "C-CAMP (Centre for Cellular and Molecular Platforms)",
-      "role": "Engineer - MedTech Facility (EEE/ECE/Mechatronics)",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Bengaluru, India",
-      "linkedin_or_website": "Not mentioned",
-      "funding": "Not mentioned",
-      "skills": "Electronic hardware design, EEE, ECE, Mechatronics",
-      "recruiter_name": "VITAA VIT Alumni Association",
-      "recruiter_email": "alumni@vit.ac.in",
-      "summary": "C-CAMP in Bengaluru is hiring an engineer with 2\u20133 years of experience in electronic hardware design for their MedTech Facility, circulated via VIT Alumni Association."
-    },
-    {
       "date_received": "2026-04-29T17:47:44+00:00",
       "date_added": "May 01, 2026",
       "company": "Listen Labs",
@@ -288,22 +288,6 @@
       "recruiter_name": "Steeve Alex",
       "recruiter_email": "s.alex@hires-lumos.com",
       "summary": "Recruiter from Lumos Talents reached out about a Senior Software Engineer opening at Decagon, an AI customer support automation startup in SF offering $200K-$400K base plus equity."
-    },
-    {
-      "date_received": "2026-04-28T09:24:32-07:00",
-      "date_added": "April 29, 2026",
-      "company": "PermitFlow",
-      "role": "Software Engineer",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "https://www.permitflow.com/",
-      "funding": "Not mentioned",
-      "skills": "AI agents, software engineering",
-      "recruiter_name": "Francis Thumpasery",
-      "recruiter_email": "francist@permitflow.com",
-      "summary": "PermitFlow CEO Francis Thumpasery is personally reaching out to recruit Rishi as a Software Engineer to help build AI agents for construction workflows, emphasizing ownership and engineering culture."
     }
   ]
 }
