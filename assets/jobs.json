@@ -1,6 +1,22 @@
 {
-  "last_updated": "June 30, 2026 at 06:03 PM",
+  "last_updated": "July 01, 2026 at 03:54 PM",
   "jobs": [
+    {
+      "date_received": "2026-06-30T17:25:37-04:00",
+      "date_added": "July 01, 2026",
+      "company": "Zip",
+      "role": "Engineer (AI Infrastructure)",
+      "status": "Follow-up",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "ziphq.com",
+      "funding": "Not mentioned",
+      "skills": "AI infrastructure, AI products",
+      "recruiter_name": "Mikaela Page",
+      "recruiter_email": "mikaela.page@ziphq.com",
+      "summary": "Recruiter Mikaela Page from Zip is following up with Rishi about re-interviewing for an engineering role focused on AI infrastructure and products at enterprise scale."
+    },
     {
       "date_received": "2026-06-29T08:38:05-04:00",
       "date_added": "June 30, 2026",
