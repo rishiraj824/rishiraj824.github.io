@@ -1,6 +1,22 @@
 {
-  "last_updated": "July 01, 2026 at 03:54 PM",
+  "last_updated": "July 07, 2026 at 05:13 PM",
   "jobs": [
+    {
+      "date_received": "2026-07-07T08:17:31-07:00",
+      "date_added": "July 07, 2026",
+      "company": "Amari",
+      "role": "Senior Fullstack Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "Backed by First Round Capital, $1M+ in revenue",
+      "skills": "Fullstack engineering, AI, platform architecture",
+      "recruiter_name": "Cameron Martin",
+      "recruiter_email": "c.martin@careers.getrocket.io",
+      "summary": "Recruiter Cameron Martin is reaching out to Rishi about a Senior Fullstack Engineer role at Amari, a First Round Capital-backed AI startup in the global logistics industry."
+    },
     {
       "date_received": "2026-06-30T17:25:37-04:00",
       "date_added": "July 01, 2026",
