@@ -1,6 +1,22 @@
 {
-  "last_updated": "July 07, 2026 at 05:13 PM",
+  "last_updated": "July 27, 2026 at 04:59 AM",
   "jobs": [
+    {
+      "date_received": "2026-07-25T08:40:01-07:00",
+      "date_added": "July 27, 2026",
+      "company": "Not mentioned (Series B construction OS company)",
+      "role": "Senior Product Engineer",
+      "status": "Other",
+      "pay": "$190,000 - $240,000 base",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "kyle@threadly.xyz",
+      "funding": "Series B",
+      "skills": "TypeScript, React, Full Stack Development",
+      "recruiter_name": "Kyle Avery",
+      "recruiter_email": "kyle@threadly.xyz",
+      "summary": "Recruiter Kyle Avery from Threadly reached out to Rishi about a Senior Product Engineer role at a Series B construction OS startup offering $190-240k base, requiring TypeScript and React expertise."
+    },
     {
       "date_received": "2026-07-07T08:17:31-07:00",
       "date_added": "July 07, 2026",
