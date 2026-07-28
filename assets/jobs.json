@@ -1,6 +1,22 @@
 {
-  "last_updated": "July 27, 2026 at 09:56 AM PDT",
+  "last_updated": "July 28, 2026 at 09:40 AM PDT",
   "jobs": [
+    {
+      "date_received": "2026-07-27T22:00:46+00:00",
+      "date_added": "July 28, 2026",
+      "company": "Vesta",
+      "role": "Senior and Staff Backend Engineer",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Remote",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://us.goodmanmasson.com/",
+      "funding": "$55M total raised, most recently $30M Series A led by a16z, Bain, Index Ventures",
+      "skills": "Backend engineering, distributed systems",
+      "recruiter_name": "Joanna Hutchings",
+      "recruiter_email": "joanna.hutchings@goodmanmasson.com",
+      "summary": "Recruiter from Goodman Masson reached out about Senior and Staff Backend Engineer roles at Vesta, an AI-native mortgage loan origination startup that recently raised a $30M Series A."
+    },
     {
       "date_received": "2026-07-27T09:30:17-07:00",
       "date_added": "July 27, 2026",
