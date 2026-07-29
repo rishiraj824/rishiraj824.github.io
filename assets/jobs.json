@@ -1,6 +1,22 @@
 {
-  "last_updated": "July 28, 2026 at 09:40 AM PDT",
+  "last_updated": "July 29, 2026 at 09:21 AM PDT",
   "jobs": [
+    {
+      "date_received": "2026-07-28T19:10:06-07:00",
+      "date_added": "July 29, 2026",
+      "company": "Triumph Labs",
+      "role": "Senior/Staff Engineer",
+      "status": "Other",
+      "pay": "Up to $400K base + 90th percentile equity",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "linkedin_or_website": "https://www.triumplabs.com",
+      "funding": "Not mentioned",
+      "skills": "Matchmaking, Anti-fraud, Experimentation, Product infrastructure, Mobile games",
+      "recruiter_name": "Chris Adams",
+      "recruiter_email": "chris.adams@triumpharcade.com",
+      "summary": "Chris Adams from Triumph Labs reached out directly to Rishi about a Senior/Staff Engineer role at their SF-based skill-based gaming and trading card marketplace startup, offering up to $400K base and top-tier equity."
+    },
     {
       "date_received": "2026-07-27T22:00:46+00:00",
       "date_added": "July 28, 2026",
@@ -288,22 +304,6 @@
       "recruiter_name": "Mikaela Page",
       "recruiter_email": "mikaela.page@ziphq.com",
       "summary": "Recruiter Mikaela Page from Zip is following up with Rishi about re-interviewing for an engineering role focused on AI infrastructure and products at enterprise scale."
-    },
-    {
-      "date_received": "2026-06-29T08:38:05-04:00",
-      "date_added": "June 30, 2026",
-      "company": "Inkitt",
-      "role": "Senior/Lead Full Stack Software Engineer",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Onsite",
-      "location": "San Francisco, CA",
-      "linkedin_or_website": "https://www.inkitt.com/",
-      "funding": "Series C, $100M+",
-      "skills": "TypeScript, PostgreSQL, API architecture, AI/ML pipelines, mobile development, web development, CMS, audiobooks, monorepo architecture",
-      "recruiter_name": "James Cramer",
-      "recruiter_email": "james@integritypowersearch.com",
-      "summary": "Recruiter James Cramer from Integrity Power Search is following up multiple times to pitch a Senior/Lead Full Stack SWE onsite role in San Francisco at Inkitt, a Series C AI-focused media/streaming startup with 2.7M monthly active users."
     },
     {
       "date_received": "2026-06-29T23:50:11-07:00",
