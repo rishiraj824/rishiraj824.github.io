@@ -1,6 +1,22 @@
 {
-  "last_updated": "July 29, 2026 at 09:21 AM PDT",
+  "last_updated": "July 30, 2026 at 09:25 AM PDT",
   "jobs": [
+    {
+      "date_received": "2026-07-29T10:02:03-07:00",
+      "date_added": "July 30, 2026",
+      "company": "Sierra",
+      "role": "Agent Engineering",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://sierra.ai",
+      "funding": "Not mentioned",
+      "skills": "Not mentioned",
+      "recruiter_name": "Hannah Spiegel",
+      "recruiter_email": "hannah.spiegel@sierra.ai",
+      "summary": "Hannah Spiegel from Sierra AI reached out to Rishi to recruit him for their agent engineering team, highlighting Sierra's founding by Bret Taylor and Clay Bavor, its focus on AI-powered customer experience agents, and strong early traction with $200M ARR."
+    },
     {
       "date_received": "2026-07-28T19:10:06-07:00",
       "date_added": "July 29, 2026",
@@ -304,22 +320,6 @@
       "recruiter_name": "Mikaela Page",
       "recruiter_email": "mikaela.page@ziphq.com",
       "summary": "Recruiter Mikaela Page from Zip is following up with Rishi about re-interviewing for an engineering role focused on AI infrastructure and products at enterprise scale."
-    },
-    {
-      "date_received": "2026-06-29T23:50:11-07:00",
-      "date_added": "June 30, 2026",
-      "company": "Proximitty",
-      "role": "Founding Engineer",
-      "status": "Follow-up",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "https://www.ycombinator.com/companies/proximitty/jobs/ctpg0o9-founding-engineer",
-      "funding": "YC W26",
-      "skills": "Not mentioned",
-      "recruiter_name": "Wye Yew",
-      "recruiter_email": "wye.proximitty@weekdayhire.com",
-      "summary": "Recruiter Wye Yew is following up with Rishi about a Founding Engineer role at Proximitty (YC W26), a fintech startup focused on improving credit access for businesses through banks and credit unions."
     }
   ]
 }
