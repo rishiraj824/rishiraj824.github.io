@@ -1,5 +1,5 @@
 {
-  "last_updated": "July 30, 2026 at 09:25 AM PDT",
+  "last_updated": "July 31, 2026 at 09:45 AM PDT",
   "jobs": [
     {
       "date_received": "2026-07-29T10:02:03-07:00",
@@ -304,22 +304,6 @@
       "recruiter_name": "Cameron Martin",
       "recruiter_email": "c.martin@careers.getrocket.io",
       "summary": "Recruiter Cameron Martin is reaching out to Rishi about a Senior Fullstack Engineer role at Amari, a First Round Capital-backed AI startup in the global logistics industry."
-    },
-    {
-      "date_received": "2026-06-30T17:25:37-04:00",
-      "date_added": "July 01, 2026",
-      "company": "Zip",
-      "role": "Engineer (AI Infrastructure)",
-      "status": "Follow-up",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "ziphq.com",
-      "funding": "Not mentioned",
-      "skills": "AI infrastructure, AI products",
-      "recruiter_name": "Mikaela Page",
-      "recruiter_email": "mikaela.page@ziphq.com",
-      "summary": "Recruiter Mikaela Page from Zip is following up with Rishi about re-interviewing for an engineering role focused on AI infrastructure and products at enterprise scale."
     }
   ]
 }
