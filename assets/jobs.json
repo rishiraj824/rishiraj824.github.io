@@ -1,6 +1,22 @@
 {
-  "last_updated": "August 01, 2026 at 09:00 AM PDT",
+  "last_updated": "August 09, 2026 at 03:35 PM PDT",
   "jobs": [
+    {
+      "date_received": "2026-08-07T10:18:41-07:00",
+      "date_added": "August 09, 2026",
+      "company": "Verax Partners",
+      "role": "Not mentioned",
+      "status": "Other",
+      "pay": "Not mentioned",
+      "remote_or_onsite": "Not mentioned",
+      "location": "Not mentioned",
+      "linkedin_or_website": "https://tracking.us.nylas.com/l/9dfb510aad80419cb6eed95f095fc82d/1/2f53b3ba799485f06dd36a49e554edfbcd3c610d5a8534fc97c0fcc38c7c210d?cache_buster=1786123120",
+      "funding": "Not mentioned",
+      "skills": "Not mentioned",
+      "recruiter_name": "Usama Shaheen",
+      "recruiter_email": "ushaheen@veraxpartners.com",
+      "summary": "Usama Shaheen, Co-Founder of Verax Partners, is following up with Rishi to learn about his next career interests and discuss open searches, requesting a 15-minute call."
+    },
     {
       "date_received": "2026-07-31T22:18:26+00:00",
       "date_added": "August 01, 2026",
@@ -112,38 +128,6 @@
       "recruiter_name": "Daniel Kurka",
       "recruiter_email": "dan@crucibl.ai",
       "summary": "Daniel from Crucibl is sending a final follow-up to Rishi about a Software Engineer role, noting the door remains open if his interest changes."
-    },
-    {
-      "date_received": "2026-07-08T15:35:27-04:00",
-      "date_added": "July 27, 2026",
-      "company": "Suno",
-      "role": "Senior & Staff Software Engineer",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Onsite",
-      "location": "New York City (Chelsea), NY",
-      "linkedin_or_website": "https://www.linkedin.com/in/jas-jg23/",
-      "funding": "Series D, $400 million at $5.4 billion valuation",
-      "skills": "Not mentioned",
-      "recruiter_name": "Jasmine Georgiades",
-      "recruiter_email": "jasmine@suno.com",
-      "summary": "Recruiter Jasmine Georgiades from Suno reached out to Rishi about Senior & Staff Software Engineer roles based onsite in NYC, highlighting the company's 100M users and recent $400M Series D funding."
-    },
-    {
-      "date_received": "2026-07-09T09:18:52-07:00",
-      "date_added": "July 27, 2026",
-      "company": "1Five.ai",
-      "role": "Not mentioned",
-      "status": "Follow-up",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "https://calendar.app.google/LdGyfp1N1wRipj6c9",
-      "funding": "Not mentioned",
-      "skills": "Not mentioned",
-      "recruiter_name": "Jacky Podesta",
-      "recruiter_email": "jacky@1five.ai",
-      "summary": "Jacky Podesta from 1Five.ai is following up with Rishi about an unspecified job opportunity and inviting him to book time on her calendar."
     },
     {
       "date_received": "2026-07-16T14:23:58-04:00",
@@ -336,22 +320,6 @@
       "recruiter_name": "Kyle Avery",
       "recruiter_email": "kyle@threadly.xyz",
       "summary": "Recruiter Kyle Avery from Threadly reached out to Rishi about a Senior Product Engineer role at a Series B construction OS startup offering $190-240k base, requiring TypeScript and React expertise."
-    },
-    {
-      "date_received": "2026-07-07T08:17:31-07:00",
-      "date_added": "July 07, 2026",
-      "company": "Amari",
-      "role": "Senior Fullstack Engineer",
-      "status": "Other",
-      "pay": "Not mentioned",
-      "remote_or_onsite": "Not mentioned",
-      "location": "Not mentioned",
-      "linkedin_or_website": "Not mentioned",
-      "funding": "Backed by First Round Capital, $1M+ in revenue",
-      "skills": "Fullstack engineering, AI, platform architecture",
-      "recruiter_name": "Cameron Martin",
-      "recruiter_email": "c.martin@careers.getrocket.io",
-      "summary": "Recruiter Cameron Martin is reaching out to Rishi about a Senior Fullstack Engineer role at Amari, a First Round Capital-backed AI startup in the global logistics industry."
     }
   ]
 }
