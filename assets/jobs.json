@@ -1,6 +1,22 @@
 {
-  "last_updated": "August 09, 2026 at 03:35 PM PDT",
+  "last_updated": "August 10, 2026 at 08:59 AM PDT",
   "jobs": [
+    {
+      "date_received": "2026-08-10T00:10:51+00:00",
+      "date_added": "August 10, 2026",
+      "company": "Tasklet",
+      "role": "Senior/Staff Backend Software Engineer - Platform",
+      "status": "Other",
+      "pay": "$220K-$400K + equity",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA (Financial District)",
+      "linkedin_or_website": "Not mentioned",
+      "funding": "$42M raised from USV, Lightspeed, and YC",
+      "skills": "Backend engineering, AI agents, HTTP APIs, MCP servers, app integrations",
+      "recruiter_name": "Katelyn Ewe",
+      "recruiter_email": "katelyne@briskstalenty.com",
+      "summary": "Recruiter Katelyn from Brisk Talent is reaching out about a Senior/Staff Backend Software Engineer - Platform role at Tasklet, an AI agent startup in San Francisco offering $220K-$400K plus equity."
+    },
     {
       "date_received": "2026-08-07T10:18:41-07:00",
       "date_added": "August 09, 2026",
